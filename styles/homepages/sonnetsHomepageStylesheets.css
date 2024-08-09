@@ -1,0 +1,61 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-container {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("../../images/sonnets-background.jpg");
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center; /* Center the background image */
+    border-bottom: black 8px solid;
+}
+
+.title-container .title-content .title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 6em; /* Adjusted font size for better display */
+    margin: 0; /* Remove default margin */
+    color: black;
+}
+
+/* Sonnets */
+.sonnets {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 80%;
+    margin: 4em 10em;
+
+}
+
+.sonnet {
+    padding: 6rem ;
+    border-bottom: dimgrey 3px solid;
+    line-height: 2em;
+}
+
+img {
+    position: relative;
+    width: 5em;
+    height: 5em;
+    color: white;
+}
