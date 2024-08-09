@@ -34,14 +34,14 @@
         font-family: 'Pacifico', cursive;
         position: relative;
         font-size: 8em;
+        margin-top: -13rem;
         color: #F1E6D4;
-
     }
 
     .taglines {
         position: relative;
         display: flex;
-        margin-top: 3em;
+        margin-top: 2em;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -57,7 +57,7 @@
         font-family: 'Lobster', cursive;
         font-size: 4em;
         color: #F1E6D4;
-        margin-bottom: 4em;
+        margin-bottom: 1em;
     }
 
     .header img {
